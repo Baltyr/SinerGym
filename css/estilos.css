@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(../img/login/fondo-login.jpg);
+    background-image: url(../img/login/fondo-login-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -18,11 +18,11 @@ main{
     width: 100%;
     padding: 20px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 400px;
 }
 
 .contenedor__todo{
-    width: 100%;
+    float: ;width: 100%;
     max-width: 800px;
     margin: auto;
     position: relative;
@@ -35,7 +35,7 @@ main{
     justify-content: center;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 128, 255, 0.5);
+    background-color: rgba(103, 103, 104, 0.5);
 
 }
 
@@ -54,6 +54,7 @@ main{
 .caja__trasera div h3{
     font-weight: 400;
     font-size: 26px;
+    color: white;
 }
 
 .caja__trasera div p{
