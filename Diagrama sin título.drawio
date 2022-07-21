@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T01:58:25.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.85" version="20.1.2" etag="hjqotiKU-bUMdhJk5H2z" type="github"><diagram id="6QAPDM_PzM3LNXaCRDs2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-21T03:43:20.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.85" etag="5NgUA6cHApclYIfdGWI9" version="20.1.2" type="github">
+  <diagram id="6QAPDM_PzM3LNXaCRDs2" name="Página-1">
+    <mxGraphModel dx="1381" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-1" value="inicio" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-2" value="planes" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-3" value="servicios&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-4" value="contacto" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-5" value="sobre nosotros&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-6" value="login" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-7" value="registro&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-8" value="correo electronico" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-9" value="contraseña" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-10" value="calendario de clases" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-11" value="fitness" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-12" value="motivacion" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-13" value="entrenamiento" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;absoluteArcSize=0;gradientColor=none;fillColor=default;strokeColor=default;autosize=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-26" value="vista planes" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-28" value="seleccionar plan" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-31" value="registro usuario" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-41" value="informacion de contacto" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gMU3o7PZoIPOLcFI7CE-43" value="map" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
