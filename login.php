@@ -1,3 +1,16 @@
+<?php
+session_start();
+if(isset($_SESSION['usuario'])){
+    echo '
+    <script>
+    alert("Por favor debes iniciar sesion con tu cuenta");
+    window.location ="view-user.php";
+    </script>
+    
+    ';
+}
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 

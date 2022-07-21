@@ -1,3 +1,20 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['usuario'])){
+        echo '
+        <script>
+        alert("Por favor debes iniciar sesion con tu cuenta");
+        window.location ="login.php";
+        </script>
+        
+        ';
+        header("location: login.php");
+        session_destroy();
+        die();
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -31,7 +48,7 @@
         <div class="loader"></div>
     </div>
 
-     <!-- Offcanvas Menu Section Begin -->
+    <!-- Offcanvas Menu Section Begin -->
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="canvas-close">
@@ -107,18 +124,17 @@
     </header>
     <!-- Header End -->
 
-
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb-bg.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb-text">
-                        <h2>calculadora de IMC</h2>
+                        <h2>Calendario</h2>
                         <div class="bt-option">
                             <a href="./index.html">Inicio</a>
                             <a href="#">mas</a>
-                            <span>calculadora de IMC</span>
+                            <span>Servicios</span>
                         </div>
                     </div>
                 </div>
@@ -127,78 +143,161 @@
     </section>
     <!-- Breadcrumb Section End -->
 
-    <!-- BMI Calculator Section Begin -->
-    <section class="bmi-calculator-section spad">
+    <!-- Class Timetable Section Begin -->
+    <section class="class-timetable-section spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="section-title chart-title">
-                        <span>revisa tu cuerpo</span>
-                        <h2>TABLA DE CALCULADORA DE IMC</h2>
+                    <div class="section-title">
+                        <span>Encuentra tu tiempo</span>
+                        <h2>Encuentre su tiempo</h2>
                     </div>
-                    <div class="chart-table">
+                </div>
+                <div class="col-lg-6">
+                    <div class="table-controls">
+                        <ul>
+                            <li class="active" data-tsfilter="all">Todos los eventos</li>
+                            <li data-tsfilter="fitness">Consejos de fitness</li>
+                            <li data-tsfilter="motivación">Motivación</li>
+                            <li data-tsfilter="entrenamiento">Entrenamiento</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="class-timetable">
                         <table>
                             <thead>
                                 <tr>
-                                    <th>IMC</th>
-                                    <th>ESTADO DE PESO</th>
+                                    <th></th>
+                                    <th>lunes</th>
+                                    <th>martes</th>
+                                    <th>miércoles</th>
+                                    <th>jueves</th>
+                                    <th>viernes</th>
+                                    <th>sábado</th>
+                                    <th>domingo</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="point">Por debajo de 18,5</td>
-                                    <td>Bajo peso</td>
+                                    <td class="class-time">6:00 a. m. - 8:00 a. m.</td>
+                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="entrenamiento">
+                                        <h5>PÉRDIDA DE PESO</h5>
+                                        <span>Refew D. Loee</span>
+                                    </td>
+                                    <td class="hover-bg ts-meta" data-tsmeta="fitness">
+                                        <h5>Cardio</h5>
+                                        <span>Refew D. Loee</span>
+                                    </td>
+                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="entrenamiento">
+                                        <h5>Yoga</h5>
+                                        <span>Keaf Shen</span>
+                                    </td>
+                                    <td class="hover-bg ts-meta" data-tsmeta="fitness">
+                                        <h5>Ejercicios</h5>
+                                        <span>Martina Gonzales</span>
+                                    </td>
+                                    <td class="dark-bg blank-td"></td>
+                                    <td class="hover-bg ts-meta" data-tsmeta="motivation">
+                                        <h5>Boxeo</h5>
+                                        <span>Raquel Adán</span>
+                                    </td>
+                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="entrenamiento">
+                                        <h5>Fisicoculturismo</h5>
+                                        <span>Robert Cage</span>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td clase="punto">18,5 - 24,9</td>
-                                    <td>Saludable</td>
+                                    <td class="class-time">10:00 a. m. - 12:00 a. m.</td>
+                                    <td clase="td-en-blanco"></td>
+                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="fitness">
+                                        <h5>Ejercicios</h5>
+                                        <span>Martina Gonzales</span>
+                                    </td>
+                                    <td class="hover-bg ts-meta" data-tsmeta="entrenamiento">
+                                        <h5>PÉRDIDA DE PESO</h5>
+                                        <span>Refew D. Loee</span>
+                                    </td>
+                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="motivation">
+                                        <h5>Cardio</h5>
+                                        <span>Refew D. Loee</span>
+                                    </td>
+                                    <td class="hover-bg ts-meta" data-tsmeta="entrenamiento">
+                                        <h5>Fisicoculturismo</h5>
+                                        <span>Robert Cage</span>
+                                    </td>
+                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="motivación">
+                                        <h5>Kárate</h5>
+                                        <span>Donald Grey</span>
+                                    </td>
+                                    <td clase="td-en-blanco"></td>
                                 </tr>
                                 <tr>
-                                    <td clase="punto">25,0 - 29,9</td>
-                                    <td>Sobrepeso</td>
+                                    <td class="class-time">17:00 - 19:00</td>
+                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="fitness">
+                                        <h5>Boxeo</h5>
+                                        <span>Raquel Adán</span>
+                                    </td>
+                                    <td class="hover-bg ts-meta" data-tsmeta="motivation">
+                                        <h5>Kárate</h5>
+                                        <span>Donald Grey</span>
+                                    </td>
+                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="entrenamiento">
+                                        <h5>Fisicoculturismo</h5>
+                                        <span>Robert Cage</span>
+                                    </td>
+                                    <td clase="td-en-blanco"></td>
+                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="entrenamiento">
+                                        <h5>Yoga</h5>
+                                        <span>Keaf Shen</span>
+                                    </td>
+                                    <td class="hover-bg ts-meta" data-tsmeta="motivación">
+                                        <h5>Cardio</h5>
+                                        <span>Refew D. Loee</span>
+                                    </td>
+                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="fitness">
+                                        <h5>Ejercicios</h5>
+                                        <span>Martina Gonzales</span>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td class="point">30.0 y superior</td>
-                                    <td>Obeso</td>
+                                    <td class="class-time">19:00 - 21:00</td>
+                                    <td class="hover-bg ts-meta" data-tsmeta="motivación">
+                                        <h5>Cardio</h5>
+                                        <span>Refew D. Loee</span>
+                                    </td>
+                                    <td class="oscuro-bg blanco-td"></td>
+                                    <td class="hover-bg ts-meta" data-tsmeta="fitness">
+                                        <h5>Boxeo</h5>
+                                        <span>Raquel Adán</span>
+                                    </td>
+                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="entrenamiento">
+                                        <h5>Yoga</h5>
+                                        <span>Keaf Shen</span>
+                                    </td>
+                                    <td class="hover-bg ts-meta" data-tsmeta="motivación">
+                                        <h5>Kárate</h5>
+                                        <span>Donald Grey</span>
+                                    </td>
+                                    <td class="dark-bg hover-bg ts-meta" data-tsmeta="fitness">
+                                        <h5>Boxeo</h5>
+                                        <span>Raquel Adán</span>
+                                    </td>
+                                    <td class="hover-bg ts-meta" data-tsmeta="entrenamiento">
+                                        <h5>PÉRDIDA DE PESO</h5>
+                                        <span>Refew D. Loee</span>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="section-title chart-calculate-title">
-                        <span>revisa tu cuerpo</span>
-                        <h2>CALCULA TU IMC</h2>
-                    </div>
-                    <div class="chart-calculate-form">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis.</p>
-                        <form action="#">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <input type="text" placeholder="Altura / cm">
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="text" placeholder="Peso / kg">
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="text" placeholder="Edad">
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="text" placeholder="Sexo">
-                                </div>
-                                <div class="col-lg-12">
-                                    <button type="submit">Calcular</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
-    <!-- BMI Calculator Section End -->
+    <!-- Class Timetable Section End -->
 
     <!-- Get In Touch Section Begin -->
     <div class="gettouch-section">
